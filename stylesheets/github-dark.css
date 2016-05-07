@@ -20,105 +20,178 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
+  
 */
 
-.pl-c /* comment */ {
-  color: #969896;
-}
+.pl-c
+/* comment */
 
-.pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
-.pl-s .pl-v /* string variable */ {
-  color: #0099cd;
+{
+    color: #969896;
 }
+.pl-c1
+/* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */
 
-.pl-e  /* entity */,
-.pl-en /* entity.name */ {
-  color: #9774cb;
+,
+.pl-s .pl-v
+/* string variable */
+
+{
+    color: #0099cd;
 }
+.pl-e
+/* entity */
 
-.pl-s .pl-s1 /* string source */,
-.pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
-  color: #ddd;
+,
+.pl-en
+/* entity.name */
+
+{
+    color: #9774cb;
 }
+.pl-s .pl-s1
+/* string source */
 
-.pl-ent /* entity.name.tag */ {
-  color: #7bcc72;
+,
+.pl-smi
+/* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */
+
+{
+    color: #ddd;
 }
+.pl-ent
+/* entity.name.tag */
 
-.pl-k /* keyword, storage, storage.type */ {
-  color: #cc2372;
+{
+    color: #7bcc72;
 }
+.pl-k
+/* keyword, storage, storage.type */
 
-.pl-pds              /* punctuation.definition.string, string.regexp.character-class */,
-.pl-s                /* string */,
-.pl-s .pl-pse .pl-s1 /* string punctuation.section.embedded source */,
-.pl-sr               /* string.regexp */,
-.pl-sr .pl-cce       /* string.regexp constant.character.escape */,
-.pl-sr .pl-sra       /* string.regexp string.regexp.arbitrary-repitition */,
-.pl-sr .pl-sre       /* string.regexp source.ruby.embedded */ {
-  color: #3c66e2;
+{
+    color: #cc2372;
 }
+.pl-pds
+/* punctuation.definition.string, string.regexp.character-class */
 
-.pl-v /* variable */ {
-  color: #fb8764;
+,
+.pl-s
+/* string */
+
+,
+.pl-s .pl-pse .pl-s1
+/* string punctuation.section.embedded source */
+
+,
+.pl-sr
+/* string.regexp */
+
+,
+.pl-sr .pl-cce
+/* string.regexp constant.character.escape */
+
+,
+.pl-sr .pl-sra
+/* string.regexp string.regexp.arbitrary-repitition */
+
+,
+.pl-sr .pl-sre
+/* string.regexp source.ruby.embedded */
+
+{
+    color: #3c66e2;
 }
+.pl-v
+/* variable */
 
-.pl-id /* invalid.deprecated */ {
-  color: #e63525;
+{
+    color: #fb8764;
 }
+.pl-id
+/* invalid.deprecated */
 
-.pl-ii /* invalid.illegal */ {
-  background-color: #e63525;
-  color: #f8f8f8;
+{
+    color: #e63525;
 }
+.pl-ii
+/* invalid.illegal */
 
-.pl-sr .pl-cce /* string.regexp constant.character.escape */ {
-  color: #7bcc72;
-  font-weight: bold;
+{
+    background-color: #e63525;
+    color: #f8f8f8;
 }
+.pl-sr .pl-cce
+/* string.regexp constant.character.escape */
 
-.pl-ml /* markup.list */ {
-  color: #c26b2b;
+{
+    color: #7bcc72;
+    font-weight: bold;
 }
+.pl-ml
+/* markup.list */
 
-.pl-mh        /* markup.heading */,
-.pl-mh .pl-en /* markup.heading entity.name */,
-.pl-ms        /* meta.separator */ {
-  color: #264ec5;
-  font-weight: bold;
+{
+    color: #c26b2b;
 }
+.pl-mh
+/* markup.heading */
 
-.pl-mq /* markup.quote */ {
-  color: #00acac;
+,
+.pl-mh .pl-en
+/* markup.heading entity.name */
+
+,
+.pl-ms
+/* meta.separator */
+
+{
+    color: #264ec5;
+    font-weight: bold;
 }
+.pl-mq
+/* markup.quote */
 
-.pl-mi /* markup.italic */ {
-  color: #ddd;
-  font-style: italic;
+{
+    color: #00acac;
 }
+.pl-mi
+/* markup.italic */
 
-.pl-mb /* markup.bold */ {
-  color: #ddd;
-  font-weight: bold;
+{
+    color: #ddd;
+    font-style: italic;
 }
+.pl-mb
+/* markup.bold */
 
-.pl-md /* markup.deleted, meta.diff.header.from-file */ {
-  background-color: #ffecec;
-  color: #bd2c00;
+{
+    color: #ddd;
+    font-weight: bold;
 }
+.pl-md
+/* markup.deleted, meta.diff.header.from-file */
 
-.pl-mi1 /* markup.inserted, meta.diff.header.to-file */ {
-  background-color: #eaffea;
-  color: #55a532;
+{
+    background-color: #ffecec;
+    color: #bd2c00;
 }
+.pl-mi1
+/* markup.inserted, meta.diff.header.to-file */
 
-.pl-mdr /* meta.diff.range */ {
-  color: #9774cb;
-  font-weight: bold;
+{
+    background-color: #eaffea;
+    color: #55a532;
 }
+.pl-mdr
+/* meta.diff.range */
 
-.pl-mo /* meta.output */ {
-  color: #264ec5;
+{
+    color: #9774cb;
+    font-weight: bold;
 }
+.pl-mo
+/* meta.output */
 
+{
+    color: #264ec5;
+}
